@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "KLTextView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    KLTextView *textview = [[KLTextView alloc]initWithFrame:CGRectMake(20, 120, 300, 40)];
+    textview.placeholder = @"占位符阿斯顿";
+    textview.textColor = [UIColor redColor];
+    textview.textAlignment = NSTextAlignmentLeft;
+    textview.font = [UIFont systemFontOfSize:15];
+    
+    [self.view addSubview:textview];
 }
 
 

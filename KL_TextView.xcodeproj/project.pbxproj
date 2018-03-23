@@ -13,6 +13,7 @@
 		002ED21820634911003E3E22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002ED21720634911003E3E22 /* Assets.xcassets */; };
 		002ED21B20634911003E3E22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002ED21920634911003E3E22 /* LaunchScreen.storyboard */; };
 		002ED21E20634911003E3E22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 002ED21D20634911003E3E22 /* main.m */; };
+		002ED22620634955003E3E22 /* KLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 002ED22520634955003E3E22 /* KLTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		002ED21A20634911003E3E22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		002ED21C20634911003E3E22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		002ED21D20634911003E3E22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		002ED22420634955003E3E22 /* KLTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLTextView.h; sourceTree = "<group>"; };
+		002ED22520634955003E3E22 /* KLTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				002ED20F20634910003E3E22 /* AppDelegate.m */,
 				002ED21120634911003E3E22 /* ViewController.h */,
 				002ED21220634911003E3E22 /* ViewController.m */,
+				002ED22420634955003E3E22 /* KLTextView.h */,
+				002ED22520634955003E3E22 /* KLTextView.m */,
 				002ED21420634911003E3E22 /* Main.storyboard */,
 				002ED21720634911003E3E22 /* Assets.xcassets */,
 				002ED21920634911003E3E22 /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 			files = (
 				002ED21320634911003E3E22 /* ViewController.m in Sources */,
 				002ED21E20634911003E3E22 /* main.m in Sources */,
+				002ED22620634955003E3E22 /* KLTextView.m in Sources */,
 				002ED21020634910003E3E22 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6AJ2E3Z5EP;
 				INFOPLIST_FILE = KL_TextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zkl.SwiftDemo.KL-TextView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6AJ2E3Z5EP;
 				INFOPLIST_FILE = KL_TextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zkl.SwiftDemo.KL-TextView";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -10,4 +10,6 @@
 
 @interface KLTextView : UITextView
 
+@property(nonatomic,copy)NSString *placeholder;
+
 @end
